@@ -21,7 +21,7 @@ notes for the presentation. -->
 standpoint of the rendered document, which resides in: ./docs/index.html,
 ./assets/open_ai_logo.svg would be the wrong path because assets is not 
 on the same directory level as the docs directory. -->
-# ![height:80px](../assets/open_ai_logo.svg) OpenAI & ChatGPT 
+# ![height:80px](./assets/open_ai_logo.svg) OpenAI & ChatGPT 
 
 Wer hier nutzt ChatGPT?
 
@@ -41,7 +41,7 @@ section {
 
 ----
 
-# ![height:40px](../assets/open_ai_logo.svg) ~~Open~~ClosedAI
+# ![height:40px](./assets/open_ai_logo.svg) ~~Open~~ClosedAI
 
 * _Früher_: OpenAI mit **"the greater good" — das Wohl der Allgemeinheit** beschrieben
 * _Heute_: Wichtige Forschungsergebnisse werden zurückgehalten
@@ -68,9 +68,9 @@ section {
 # Gibt es überhaupt eine Alternative zu Big-Tech?
 
 <!-- Vertically split background in "cover" mode with even spacing. -->
-![bg cover](../assets/snl_musk.webp)
-![bg cover](../assets/the_zucc.webp)
-![bg cover](../assets/dabbing_bill.webp)
+![bg cover](./assets/snl_musk.webp)
+![bg cover](./assets/the_zucc.webp)
+![bg cover](./assets/dabbing_bill.webp)
 
 <style scoped>
 h1 {
@@ -103,7 +103,7 @@ h1 {
 
 ----
 
-![bg cover](../assets/angry_pc_man.webp)
+![bg cover](./assets/angry_pc_man.webp)
 
 # Nachteile aka. Herausforderungen
 
@@ -131,7 +131,7 @@ h1 {
 # Tools zur praktischen Nutzung
 
 <!-- Picture on the left side using 33% of the page. -->
-![bg contain left:33%](../assets/tool_diag.png)
+![bg contain left:33%](./assets/tool_diag.png)
 
 * LLM (Großes Sprachmodell), Analogie zur Bluray
 * Benötigt wird Schnittstelle für Interaktion, eine Art "Bluray-Player" 
@@ -145,7 +145,6 @@ h1 {
 
 ```sh
 curl -fsSL https://ollama.com/install.sh | sh
-systemctl start ollama
 ```
 
 2. Großes Sprachmodell herunterladen:
@@ -162,11 +161,11 @@ podman run -d --name openwebui -p 3000:8080 ghcr.io/open-webui/open-webui:main
 
 4. Evtl. Verbindungseinstellungen in Openweb-UI anpassen:
 
-![height:50px](../assets/oi_conn.png) 
+![height:50px](./assets/oi_conn.png) 
 
 ----
 
-![bg cover](../assets/confused_mark.webp)
+![bg cover](./assets/confused_mark.webp)
 
 # Soviel zur Theorie! Nun zur Praxis.
 
@@ -185,9 +184,9 @@ h1 {
 
 <!-- A series of pictures with the same height on the right side requireing
 60% of space. The position (side) only has to specified once. -->
-![bg right:60% h:400px](../assets/oi_signup.jpeg)
-![bg h:400px](../assets/oi_login.jpeg)
-![bg h:400px](../assets/oi_chat.jpeg)
+![bg right:60% h:400px](./assets/oi_signup.jpeg)
+![bg h:400px](./assets/oi_login.jpeg)
+![bg h:400px](./assets/oi_chat.jpeg)
 
 <!-- Picture (qr-code) on the left "position" is not specified, so the picture
 is rendered in at the "foreground". -->
@@ -197,7 +196,7 @@ is rendered in at the "foreground". -->
 
 # Ausblick in die Zukunft
 
-![bg left:33%](../assets/prof_dr_ommer.avif)
+![bg left:33%](./assets/prof_dr_ommer.avif)
 
 * Demokratisierung durch effizientere KI-Modelle, **Weniger ist Mehr**
 * Beispiel: Stable Diffusion (Nominiert für den Deutschen Zukunftspreis 2024)
