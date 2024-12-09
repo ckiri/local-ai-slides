@@ -190,7 +190,7 @@ h1 {
 
 <!-- Picture (qr-code) on the left "position" is not specified, so the picture
 is rendered in at the "foreground". -->
-![contain](../assets/qrcode.png)
+![contain](./assets/qrcode.png)
 
 ----
 
